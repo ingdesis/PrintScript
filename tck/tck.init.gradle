@@ -13,7 +13,7 @@ allprojects {
                 exclusiveContent {
                     forRepository {
                         maven {
-                            url = uri('https://maven.pkg.github.com/MartinaCousido/PrintScript')
+                            url = uri('https://maven.pkg.github.com/ingdesis/PrintScript')
                             credentials {
                                 username = System.getenv('GITHUB_ACTOR')
                                 password = System.getenv('GITHUB_TOKEN')
