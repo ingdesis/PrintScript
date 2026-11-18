@@ -311,7 +311,7 @@ Publica dos cosas:
 
   ```kotlin
   repositories {
-      maven("https://maven.pkg.github.com/MartinaCousido/PrintScript")
+      maven("https://maven.pkg.github.com/ingdesis/PrintScript")
   }
   dependencies {
       implementation("org.printscript:runner:0.2.0")
